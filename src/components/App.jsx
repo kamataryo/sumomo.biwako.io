@@ -1,5 +1,12 @@
 import React from 'react'
+import Header from '../components/Header'
+import Photos from '../components/Photos'
+import Metrics from '../components/Metrics'
 
-export default () => (<div>
-  { 'Hello, Sumomo!' }
-</div>)
+export default () => (
+  <div>
+    <Header />
+    <Photos />
+    <Metrics />
+  </div>
+)
